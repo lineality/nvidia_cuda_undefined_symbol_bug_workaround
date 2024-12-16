@@ -1,5 +1,5 @@
 ##### nvidia_cuda_undefined_symbol_bug_workaround
-(2024.12.16 earthtime)
+
 
 # For error: undefined symbol... libnvJitLink.so.12
 ```error
@@ -26,9 +26,9 @@ The first step will work in an ipynb notebook BUT the 2nd step will NOT work whe
 find / -name libnvJitLink.so.12 2>/dev/null  # Suppress error messages
 ```
 the output may include various versions that you don't want.
-e.g. a cached file:
+e.g. cached files, envs, containers, installations, etc.
 ```
-/home/abc/.cache/bazel/_bazel_oops/b0476c413c941aacfe3480843ee50b1f/external/cuda_nvjitlink/lib/libnvJitLink.so.12
+/home/abc/.cache/bazel/_bazel_abc/b0476c413c941aacfe3480843ee50b1f/external/cuda_nvjitlink/lib/libnvJitLink.so.12
 ```
 vs.
 ```

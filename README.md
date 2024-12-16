@@ -104,6 +104,8 @@ Once you know the directory containing libnvJitLink.so.12, add it to the LD_LIBR
 export LD_LIBRARY_PATH=<path_to_lib_dir>:$LD_LIBRARY_PATH
 ```
 
-
+## Versions
+As dependency chain versions are a forever-puzzle, 
+example pip freeze -> requirements.txt may be in repo.
 
 
